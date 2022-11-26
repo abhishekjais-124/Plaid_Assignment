@@ -1,5 +1,9 @@
 # Bright-Money-Assignment
 ## ***plaid_auth***
+
+## ***Plaid:-***
+![alt text](https://github.com/abhishekjais-124/plaid_assignment/blob/main/image.png?raw=true)
+
 ## ***Objective:-***
 Create a project in django rest framework and celery with following APIs exposed:
 * User signup, login , logout APIs
@@ -17,7 +21,7 @@ Create a project in django rest framework and celery with following APIs exposed
 
 * ***TokenItem:*** To store Access_token and Item_id info
 
-* ***Log:*** To store every activity log
+* ***LoggedData:*** To store every activity log
 
 * ***Transactions:*** To store transactions info from Plaid API
 
@@ -25,7 +29,7 @@ Create a project in django rest framework and celery with following APIs exposed
 
 * ***Account:*** To store bank account info
 
-## ***REST APIs:-***
+## ***APIs:-***
 * ***auth/registration/:*** To register a user
 
 * ***auth/login:*** To login a user
@@ -42,7 +46,7 @@ Create a project in django rest framework and celery with following APIs exposed
 
 * ***api/:***  Link account and go in to plaid auth flow
 
-## ***How to use:-***
+## ***Using Procedure:-***
 ***step 1)*** Create a config.py file in plaid_auth directory and create a Setting object having plaid credentials as its properties
 
 ***step 2)*** Install all the required dependecies from requirements.txt
